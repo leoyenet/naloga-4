@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meme Generator</title>
+    <style>
+        body {text-align: center; margin-top: 50px; background-color: #f0f0f0; }
+
+    </style>
+</head>
+<body>
+    <h1>Docker Meme Generator</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <label>Izberi sliko:</label>
+        <input type="file" name="image" accept="image/*" required>
+        <input type="text" name="top_text" placeholder="Zgornji tekst">
+        <input type="text" name="bottom_text" placeholder="Spodnji tekst">
+        <button type="submit">Generiraj</button>
+    </form>
+</body>
+</html>

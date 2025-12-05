@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <style>
+        body { text-align: center; background-color: #3d3d3dff; color: white; }
+        img {max-width: 90%; margin-top: 20px; }
+        a { color: #39a7ccff; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <h1>Meme Genreiran</h1>
+    <img src="{{ url_for('static', filename='uploads/' + meme_name) }}" alt="Meme">
+    <br><br>
+    <a href="/">« Se enga</a>
+</body>
+</html>
