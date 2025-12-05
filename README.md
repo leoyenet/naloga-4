@@ -13,3 +13,15 @@ docker run -p 5000:5000 meme-generator
 - izberite spodnji text
 - pritisni generiraj 
 - odpre se nova stran na kateri bo prikazana generirana slika
+
+## Uporaba aplikacije docker-compose
+- TODO problem s permissions
+
+```sh
+git clone https://github.com/leoyenet/naloga-4.git
+cd naloga-4
+docker compose up --build
+
+# zaustavitev 
+docker compose down
+```
